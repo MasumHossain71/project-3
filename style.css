@@ -67,7 +67,7 @@
 .btn2{
   background-color: orange;
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 20px 55px;
   border-radius: 5px;
   margin-left:30px;
@@ -79,8 +79,34 @@
 .btn2:active{
   background-color: black;
 }
-.section-3 h1{
+.section-3 .service-head{
   font-size: 3.5rem;
   text-align: center;
   margin-bottom: 3rem;
+}
+.block-group{
+  display: flex;
+  text-align: center;
+  display: block;
+}
+.services{
+  background-color: #F4F5F8;
+  width: 160px;
+  height: 225px;
+  padding: 48px;
+  margin: 15px;
+  border-radius: 5px;
+}
+.section-3 .serv-title{
+  font-size: 1.5rem;
+  text-align: left;
+  margin:0px;
+  padding:0px;
+}
+.section-3 p{
+  text-align: left;
+  margin-top: 20px;
+}
+.section-3 .icon-size{
+  font-size: 45px;
 }
