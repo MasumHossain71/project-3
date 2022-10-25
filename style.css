@@ -1,36 +1,36 @@
-*{
-  font-family: 'Oswald', sans-serif;
-  margin:0;
+* {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
   padding: 0;
 }
-.section-1{
+.section-1 {
   height: 900px;
   background-color: orange;
   display: flex;
   width: 100%;
 }
-.top-half{
+.top-half {
   width: 50%;
 }
-.header-img{
+.header-img {
   text-align: right;
   margin-top: 40px;
 }
-.title{
+.title {
   margin: 268px 0px 0px 50px;
 }
-.title h1{
+.title h1 {
   font-size: 90px;
   line-height: 107px;
   color: #222429;
 }
-.section-1 p{
+.section-1 p {
   margin: 15px 0px 45px 55px;
-  color:rgb(87, 87, 87);
+  color: rgb(87, 87, 87);
   letter-spacing: 1px;
 }
-.top-half .btn1{
-  margin-left:55px;
+.top-half .btn1 {
+  margin-left: 55px;
   background-color: #222429;
   text-decoration: none;
   color: white;
@@ -38,75 +38,111 @@
   border-radius: 5px;
   font-family: sans-serif;
 }
-.top-half .btn1:hover{
+.top-half .btn1:hover {
   background-color: black;
+  transition: 0.5s;
 }
-.section-2{
+.section-2 {
   width: 60%;
   margin: 200px 20%;
 }
-.sec2-maindiv{
+.sec2-maindiv {
   display: flex;
 }
-.about-img img{
+.about-img img {
   height: 550px;
 }
-.about-txt h1{
+.about-txt h1 {
   font-size: 3.5rem;
   line-height: 0.7;
   margin: 30px 0px 0px 30px;
 }
-.about-txt h3{
+.about-txt h3 {
   margin: 30px 0px 0px 30px;
   color: orange;
 }
-.about-txt p{
+.about-txt p {
   margin: 20px 0px 30px 30px;
   color: rgb(87, 87, 87);
 }
-.btn2{
+.btn2 {
   background-color: orange;
   text-decoration: none;
   color: black;
   padding: 20px 55px;
   border-radius: 5px;
-  margin-left:30px;
+  margin-left: 30px;
   font-family: sans-serif;
 }
-.btn2:hover{
+.btn2:hover {
   background-color: gray;
+  transition: 0.3s;
 }
-.btn2:active{
+.btn2:active {
   background-color: black;
+  color: white;
 }
-.section-3 .service-head{
+.section-3 .service-head {
   font-size: 3.5rem;
   text-align: center;
   margin-bottom: 3rem;
 }
-.block-group{
+.block-group {
   display: flex;
-  text-align: center;
-  display: block;
+  justify-content: center;
+  margin-bottom: 150px;
 }
-.services{
-  background-color: #F4F5F8;
+.services {
+  background-color: #f4f5f8;
   width: 160px;
   height: 225px;
   padding: 48px;
   margin: 15px;
   border-radius: 5px;
+  box-shadow: 5px 5px 10px gray;
+  cursor: pointer;
 }
-.section-3 .serv-title{
+.section-3 .serv-title {
   font-size: 1.5rem;
   text-align: left;
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
-.section-3 p{
+.section-3 p {
   text-align: left;
   margin-top: 20px;
+  color:rgb(87, 87, 87)
 }
-.section-3 .icon-size{
+.section-3 .icon-size {
   font-size: 45px;
+}
+.section-3 i{
+  color: orange;
+}.services:hover{
+  background-color: #222429;
+  color: white;
+  transition: 0.3s;
+}
+.section-4 .section4-header{
+  font-size: 3.5rem;
+  text-align: center;
+}
+.projects-btn{
+  text-align: center;
+  margin: 40px 0px 35px 0px;
+}
+.projects-btn a{
+  padding: 8px 20px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.projects-btn a:hover{
+  background-color: #222429;
+  color: white;
+  transition: .3s;
+}
+.projects-btn a i{
+  color: orange;
 }
